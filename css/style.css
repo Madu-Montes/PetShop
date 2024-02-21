@@ -183,7 +183,7 @@ nav ul li a:hover {
 .form-login {
     background-color: #D9B74B;
     height: 100%;
-    padding: 5rem 10rem;
+    padding: 4rem 10rem;
     display: flex;
     flex-direction: column;
     justify-content: center;

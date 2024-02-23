@@ -163,27 +163,43 @@ nav ul li a:hover {
     margin-bottom: 2rem;
 }
 
+
+
 /*LOGIN*/
-.login-box {
+.cadastro-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
+    background-color: #fff;
+}
+
+.cadastro {
+    display: flex;
     background-color: #D9B74B;
+    width: 70%;
+    height: 34rem;
+    overflow: hidden;
 }
 
-.fechar {
-    position: absolute;
-    top: 25px;
-    padding-left: 30px;
+.cadastro .col-md-6 {
+    flex: 1;
+    padding: 30px;
+}
+
+.close {
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    top: 0; 
+    left: 10px;
+    margin: 20px; 
     z-index: 9999;
-}
-
-.fechar img {
-    width: 25px;
 }
 
 .form-login {
     background-color: #D9B74B;
-    height: 100%;
-    padding: 4rem 10rem;
+    padding: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -192,12 +208,13 @@ nav ul li a:hover {
 .form-login h1{
     font-size: 26px;
     font-weight: bold;
+    margin-top: -4rem;
     margin-bottom: 2rem;
     color: #000;
 }
 
 .campo-forms {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .campo-forms label {
@@ -210,7 +227,7 @@ input[type="checkbox"] {
 }
 
 .campo-forms input{
-    background-color: #D9D9D9;
+    background-color: #fff;
     width: 100%;
     height: 35px;
     border-radius: 10px;
@@ -227,8 +244,8 @@ input[type="checkbox"] {
     width: 100%;
     border-radius: 20px;
     border: none;
-    margin-top: 25px;
-    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
     text-transform: uppercase;
 }
 
@@ -253,6 +270,14 @@ input[type="checkbox"] {
     font-weight: 600;
     text-decoration: none;
     color: #000;
+}
+
+.img-login {
+    flex: 1;
+    height: 100vh;
+    background-image: url("../imgs/dog-home.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 

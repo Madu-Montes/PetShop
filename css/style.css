@@ -19,6 +19,7 @@ body {
     align-items: center;
 }
 
+/*MENU*/
 nav.menu {
     background-color: transparent !important;
 }
@@ -125,7 +126,7 @@ nav ul li a:hover {
     }
 }
 
-/* HOME */
+/* INDEX */
 .text-home h1 {
     font-size: 4rem;
     margin-bottom: 25px;
@@ -164,9 +165,12 @@ nav ul li a:hover {
 }
 
 
+/*HOME*/
+
+
 
 /*LOGIN*/
-.cadastro-box {
+.login-box {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -174,7 +178,7 @@ nav ul li a:hover {
     background-color: #fff;
 }
 
-.cadastro {
+.login {
     display: flex;
     background-color: #D9B74B;
     width: 70%;
@@ -182,7 +186,7 @@ nav ul li a:hover {
     overflow: hidden;
 }
 
-.cadastro .col-md-6 {
+.login .col-md-6 {
     flex: 1;
     padding: 30px;
 }
@@ -239,7 +243,7 @@ input[type="checkbox"] {
     color: #0000007c;
 }
 
-.btn-entrar{
+.btn-entrar, .btn-cadastrar{
     background-color: #525252;
     width: 100%;
     border-radius: 20px;
@@ -280,8 +284,51 @@ input[type="checkbox"] {
     background-position: center;
 }
 
+/*CADASTRO*/
+.cadastro-box {
+    background-color: #fff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-/* FOOTER */
+.cadastro {
+    background-color: #D9B74B;
+    width: 80%;
+    max-width: 800px;
+    height: 32rem;
+    padding: 30px; 
+}
+
+.cadastro h1{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.cadastro .mb-3{
+    height: 80px;
+    margin-top:  -10px;
+}
+
+.cadastro input{
+    height: 30px;
+}
+
+.btn-cadastrar{
+    margin-top: 40px;
+    font-size: 16px;
+    padding: 5px;
+}
+
+.btn-cadastrar:hover{
+    transition: 0.3s;
+    background-color: #8B45AA;
+}
+
+
+/* FOOTER*/
 .footer {
     background-color: #757575;
     color: #fff;

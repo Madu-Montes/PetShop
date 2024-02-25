@@ -19,9 +19,17 @@ body {
     align-items: center;
 }
 
-/*MENU*/
+/* MENU */
 nav.menu {
     background-color: transparent !important;
+}
+
+.navbar-collapse li {
+    width: 130px;
+}
+
+.navbar-collapse li a:hover {
+    color: #552a68;
 }
 
 .navbar-nav {
@@ -32,24 +40,11 @@ nav.menu {
     text-align: center;
 }
 
-nav {
-    height: 20vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-    margin-top: 15px;
-}
-
-nav ul li {
+.navbar-nav .nav-item {
     margin-right: 20px;
 }
 
-nav ul li a:hover {
+.navbar-nav .nav-link {
     color: #000;
 }
 
@@ -74,9 +69,10 @@ nav ul li a:hover {
     justify-content: center;
     align-items: center;
     position: absolute;
-    transform: translateY(-50%);
-    right: 0;
+    top: 20px;
+    right: 15px;
 }
+
 
 .btn-login:hover {
     transition: 0.3s;
@@ -167,6 +163,52 @@ nav ul li a:hover {
 
 /*HOME*/
 
+/*QUEM SOMOS*/
+
+#quem-somos {
+    background-color: #D9B74B;
+    height: 39.5rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+#quem-somos .col-md-5 {
+    height: 100vh;
+    background-image: url("../imgs/quemSomos.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#quem-somos .col-md-7 {
+    padding: 2rem;
+}
+
+#quem-somos .col-md-11 {
+    margin-bottom: 3rem;
+}
+
+#quem-somos h1 {
+    color: #8B45AA;
+    font-weight: 900;
+    margin-bottom: 3rem;
+}
+
+.btn-whatsapp {
+    background-color: #EA723F;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    width: 200px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-whatsapp:hover{
+    transition: 0.3s;
+    background-color: #8B45AA;
+}
 
 
 /*LOGIN*/
@@ -195,9 +237,9 @@ nav ul li a:hover {
     width: 30px;
     height: 30px;
     position: fixed;
-    top: 0; 
+    top: 0;
     left: 10px;
-    margin: 20px; 
+    margin: 20px;
     z-index: 9999;
 }
 
@@ -209,7 +251,7 @@ nav ul li a:hover {
     justify-content: center;
 }
 
-.form-login h1{
+.form-login h1 {
     font-size: 26px;
     font-weight: bold;
     margin-top: -4rem;
@@ -230,7 +272,7 @@ input[type="checkbox"] {
     margin-right: 5px;
 }
 
-.campo-forms input{
+.campo-forms input {
     background-color: #fff;
     width: 100%;
     height: 35px;
@@ -238,12 +280,13 @@ input[type="checkbox"] {
     border: none;
 }
 
-.esqueceu{
+.esqueceu {
     text-align: right;
     color: #0000007c;
 }
 
-.btn-entrar, .btn-cadastrar{
+.btn-entrar,
+.btn-cadastrar {
     background-color: #525252;
     width: 100%;
     border-radius: 20px;
@@ -253,18 +296,17 @@ input[type="checkbox"] {
     text-transform: uppercase;
 }
 
-.btn-entrar:hover{
+.btn-entrar:hover {
     transition: 0.3s;
     background-color: #8B45AA;
 }
 
 .img-login {
     height: 100vh;
-    background-image: url("../imgs/dogLogin.jpg"); 
-    background-size: cover; 
-    background-position: center; 
+    background-image: url("../imgs/dogLogin.jpg");
+    background-size: cover;
+    background-position: center;
 }
-
 
 .registre-se {
     text-align: center;
@@ -298,31 +340,31 @@ input[type="checkbox"] {
     width: 80%;
     max-width: 800px;
     height: 32rem;
-    padding: 30px; 
+    padding: 30px;
 }
 
-.cadastro h1{
+.cadastro h1 {
     font-size: 24px;
     font-weight: 600;
     margin-bottom: 5px;
 }
 
-.cadastro .mb-3{
+.cadastro .mb-3 {
     height: 80px;
-    margin-top:  -10px;
+    margin-top: -10px;
 }
 
-.cadastro input{
+.cadastro input {
     height: 30px;
 }
 
-.btn-cadastrar{
+.btn-cadastrar {
     margin-top: 40px;
     font-size: 16px;
     padding: 5px;
 }
 
-.btn-cadastrar:hover{
+.btn-cadastrar:hover {
     transition: 0.3s;
     background-color: #8B45AA;
 }

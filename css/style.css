@@ -207,188 +207,77 @@ nav.menu {
 
 .btn-whatsapp:hover{
     transition: 0.3s;
-    background-color: #8B45AA;
+    background-color: #db6c3d;
 }
 
+/*Nossos Serviços*/
 
-/*LOGIN*/
-.login-box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #fff;
-}
-
-.login {
-    display: flex;
-    background-color: #D9B74B;
-    width: 70%;
-    height: 34rem;
-    overflow: hidden;
-}
-
-.login .col-md-6 {
-    flex: 1;
-    padding: 30px;
-}
-
-.close {
-    width: 30px;
-    height: 30px;
-    position: fixed;
-    top: 0;
-    left: 10px;
-    margin: 20px;
-    z-index: 9999;
-}
-
-.form-login {
-    background-color: #D9B74B;
-    padding: 2rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.form-login h1 {
-    font-size: 26px;
-    font-weight: bold;
-    margin-top: -4rem;
-    margin-bottom: 2rem;
-    color: #000;
-}
-
-.campo-forms {
-    margin-bottom: 15px;
-}
-
-.campo-forms label {
-    margin-bottom: 10px;
-    text-transform: uppercase;
-}
-
-input[type="checkbox"] {
-    margin-right: 5px;
-}
-
-.campo-forms input {
-    background-color: #fff;
-    width: 100%;
-    height: 35px;
-    border-radius: 10px;
-    border: none;
-}
-
-.esqueceu {
-    text-align: right;
-    color: #0000007c;
-}
-
-.btn-entrar,
-.btn-cadastrar {
-    background-color: #525252;
-    width: 100%;
-    border-radius: 20px;
-    border: none;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    text-transform: uppercase;
-}
-
-.btn-entrar:hover {
-    transition: 0.3s;
-    background-color: #8B45AA;
-}
-
-.img-login {
-    height: 100vh;
-    background-image: url("../imgs/dogLogin.jpg");
-    background-size: cover;
-    background-position: center;
-}
-
-.registre-se {
+#servicos {
+    margin-top: 20rem;
+    height: 80vh;
+    padding: 4rem 0;
     text-align: center;
 }
 
-.registre-se a {
-    font-weight: 600;
-    text-decoration: none;
-    color: #000;
+#servicos h2 {
+    color: #8B45AA;
+    margin-top: 5rem;
+    margin-bottom: -7rem;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
 }
 
-.img-login {
-    flex: 1;
-    height: 100vh;
-    background-image: url("../imgs/dog-home.jpg");
-    background-size: cover;
-    background-position: center;
-}
-
-/*CADASTRO*/
-.cadastro-box {
-    background-color: #fff;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.cadastro {
+.card {
+    height: 250px;
+    width: 300px;
     background-color: #D9B74B;
-    width: 80%;
-    max-width: 800px;
-    height: 32rem;
-    padding: 30px;
+    border: none;
 }
 
-.cadastro h1 {
-    font-size: 24px;
-    font-weight: 600;
-    margin-bottom: 5px;
-}
-
-.cadastro .mb-3 {
-    height: 80px;
-    margin-top: -10px;
-}
-
-.cadastro input {
-    height: 30px;
-}
-
-.btn-cadastrar {
-    margin-top: 40px;
-    font-size: 16px;
-    padding: 5px;
-}
-
-.btn-cadastrar:hover {
-    transition: 0.3s;
-    background-color: #8B45AA;
+.card img{
+    width: 50px;
 }
 
 
-/* FOOTER*/
+.carousel-control-prev,
+.carousel-control-next {
+    width: 30px;
+    color: #000; 
+    opacity: 0.5;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    opacity: 0.8;
+}
+
+
+/* Footer */
 .footer {
-    background-color: #757575;
+    background-color: #8B45AA;
     color: #fff;
-    height: 150px;
-    padding-top: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
-.footer .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.footer .logo-footer img {
+    width: 150px;
 }
 
-.text-footer {
-    text-align: right;
+.footer .text-footer p {
+    margin-bottom: 10px;
 }
 
-.logo-footer img {
-    width: 130px;
-    border-radius: 50%;
+.footer .text-footer span a {
+    color: #e01414;
+    text-decoration: none;
 }
+
+.footer .text-footer span a:hover {
+    text-decoration: underline;
+}
+
+

@@ -19,9 +19,17 @@ body {
     align-items: center;
 }
 
-/*MENU*/
+/* MENU */
 nav.menu {
     background-color: transparent !important;
+}
+
+.navbar-collapse li {
+    width: 130px;
+}
+
+.navbar-collapse li a:hover {
+    color: #552a68;
 }
 
 .navbar-nav {
@@ -32,24 +40,11 @@ nav.menu {
     text-align: center;
 }
 
-nav {
-    height: 20vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-    margin-top: 15px;
-}
-
-nav ul li {
+.navbar-nav .nav-item {
     margin-right: 20px;
 }
 
-nav ul li a:hover {
+.navbar-nav .nav-link {
     color: #000;
 }
 
@@ -74,8 +69,8 @@ nav ul li a:hover {
     justify-content: center;
     align-items: center;
     position: absolute;
-    transform: translateY(-50%);
-    right: 0;
+    top: 20px;
+    right: 15px;
 }
 
 .btn-login:hover {
@@ -126,8 +121,7 @@ nav ul li a:hover {
     }
 }
 
-/* HOME */
-/* INDEX */
+/* INDEX/HOME */
 .text-home h1 {
     font-size: 4rem;
     margin-bottom: 25px;
@@ -164,11 +158,6 @@ nav ul li a:hover {
     width: 30rem;
     margin-bottom: 2rem;
 }
-
-
-/*HOME*/
-
-
 
 /*LOGIN*/
 .login-box {
@@ -210,7 +199,7 @@ nav ul li a:hover {
     justify-content: center;
 }
 
-.form-login h1{
+.form-login h1 {
     font-size: 26px;
     font-weight: bold;
     margin-top: -4rem;
@@ -231,7 +220,7 @@ input[type="checkbox"] {
     margin-right: 5px;
 }
 
-.campo-forms input{
+.campo-forms input {
     background-color: #fff;
     width: 100%;
     height: 35px;
@@ -239,12 +228,13 @@ input[type="checkbox"] {
     border: none;
 }
 
-.esqueceu{
+.esqueceu {
     text-align: right;
     color: #0000007c;
 }
 
-.btn-entrar, .btn-cadastrar{
+.btn-entrar,
+.btn-cadastrar {
     background-color: #525252;
     width: 100%;
     border-radius: 20px;
@@ -254,18 +244,17 @@ input[type="checkbox"] {
     text-transform: uppercase;
 }
 
-.btn-entrar:hover{
+.btn-entrar:hover {
     transition: 0.3s;
     background-color: #8B45AA;
 }
 
 .img-login {
     height: 100vh;
-    background-image: url("../imgs/dogLogin.jpg"); 
-    background-size: cover; 
-    background-position: center; 
+    background-image: url("../imgs/dogLogin.jpg");
+    background-size: cover;
+    background-position: center;
 }
-
 
 .registre-se {
     text-align: center;
@@ -299,37 +288,174 @@ input[type="checkbox"] {
     width: 80%;
     max-width: 800px;
     height: 32rem;
-    padding: 30px; 
+    padding: 30px;
 }
 
-.cadastro h1{
+.cadastro h1 {
     font-size: 24px;
     font-weight: 600;
     margin-bottom: 5px;
 }
 
-.cadastro .mb-3{
+.cadastro .mb-3 {
     height: 80px;
-    margin-top:  -10px;
+    margin-top: -10px;
 }
 
-.cadastro input{
+.cadastro input {
     height: 30px;
 }
 
-.btn-cadastrar{
+.btn-cadastrar {
     margin-top: 40px;
     font-size: 16px;
     padding: 5px;
 }
 
-.btn-cadastrar:hover{
+.btn-cadastrar:hover {
     transition: 0.3s;
     background-color: #8B45AA;
 }
 
+/*HOME*/
+#home {
+    background-color: brown;
+    margin-bottom: 5rem;
+}
 
-/* FOOTER */
+/*QUEM SOMOS*/
+#quem-somos {
+    background-color: #D9B74B;
+    margin-top: 5rem;
+    padding: 3rem;
+}
+
+#quem-somos .col-md-5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#quem-somos .col-md-5 img {
+    max-width: 90%;
+    height: auto;
+
+}
+
+.quem-somos-content {
+    margin-top: 2rem;
+}
+
+.quem-somos-content h1 {
+    color: #8B45AA;
+    font-weight: 900;
+    margin-bottom: 1rem;
+}
+
+.quem-somos-content p {
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.btn-whatsapp {
+    background-color: #EA723F;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    width: 200px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.btn-whatsapp:hover {
+    background-color: #db6c3d;
+    transition: 0.3s;
+}
+
+/*NOSSOS SERVIÇOS*/
+#servicos h1 {
+    text-align: center;
+    color: #8B45AA;
+    font-weight: 900;
+    margin-top: 2rem;
+}
+
+.card-servico {
+    position: relative;
+    width: 350px;
+    height: 300px;
+    background-color: #D9B74B;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.card-servico .circle {
+    background-color: #db6c3d;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-servico .circle img {
+    width: 40px;
+    height: 40px;
+}
+
+.card-servico .title {
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
+}
+
+.card-servico .text {
+    text-align: center;
+    color: #fff;
+    margin: 20px 10px;
+}
+
+@media (max-width: 992px) {
+    .card-servico {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.card {
+    height: 250px;
+    width: 300px;
+    background-color: #D9B74B;
+    border: none;
+}
+
+.card img {
+    width: 50px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 30px;
+    color: #000;
+    opacity: 0.5;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    opacity: 0.8;
+}
+
 /* FOOTER*/
 .footer {
     background-color: #757575;
@@ -352,92 +478,3 @@ input[type="checkbox"] {
     width: 130px;
     border-radius: 50%;
 }
-
-
-/*Nossos Serviços
-#servicos h1{
-    text-align: center;
-    color: #8B45AA;
-    font-weight: 900;
-    margin-top: 2rem;
-}
-
-.card-servico {
-    position: relative;
-    width: 350px;
-    height: 300px;
-    background-color: #D9B74B;
-    margin-bottom: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px;
-    overflow: hidden;
-}
-
-.card-servico .circle{
-    background-color: #db6c3d;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.card-servico .circle img{
-    width: 40px;
-    height: 40px;
-}
-
-.card-servico .title {
-    text-align: center;
-    margin-top: 20px;
-    color: #fff;
-}
-
-.card-servico .text {
-    text-align: center;
-    color: #fff;
-    margin: 20px 10px;
-}
-
-@media (max-width: 992px) {
-    .card-servico {
-        width: 80%; 
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
-
-
-/*
-
-.card {
-    height: 250px;
-    width: 300px;
-    background-color: #D9B74B;
-    border: none;
-}
-
-.card img{
-    width: 50px;
-}
-
-
-.carousel-control-prev,
-.carousel-control-next {
-    width: 30px;
-    color: #000; 
-    opacity: 0.5;
-    z-index: 1;
-    background-color: rgba(0, 0, 0, 0.5); 
-}
-
-.carousel-control-prev:hover,
-.carousel-control-next:hover {
-    opacity: 0.8;
-}
-
-
-

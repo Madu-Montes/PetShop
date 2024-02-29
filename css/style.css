@@ -19,17 +19,9 @@ body {
     align-items: center;
 }
 
-/* MENU */
+/*MENU*/
 nav.menu {
     background-color: transparent !important;
-}
-
-.navbar-collapse li {
-    width: 130px;
-}
-
-.navbar-collapse li a:hover {
-    color: #552a68;
 }
 
 .navbar-nav {
@@ -40,11 +32,24 @@ nav.menu {
     text-align: center;
 }
 
-.navbar-nav .nav-item {
+nav {
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin-top: 15px;
+}
+
+nav ul li {
     margin-right: 20px;
 }
 
-.navbar-nav .nav-link {
+nav ul li a:hover {
     color: #000;
 }
 
@@ -69,10 +74,9 @@ nav.menu {
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 20px;
-    right: 15px;
+    transform: translateY(-50%);
+    right: 0;
 }
-
 
 .btn-login:hover {
     transition: 0.3s;
@@ -122,6 +126,7 @@ nav.menu {
     }
 }
 
+/* HOME */
 /* INDEX */
 .text-home h1 {
     font-size: 4rem;
@@ -163,70 +168,250 @@ nav.menu {
 
 /*HOME*/
 
-/*QUEM SOMOS*/
 
-#quem-somos {
-    background-color: #D9B74B;
-    height: 39.5rem;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
+
+/*LOGIN*/
+.login-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fff;
 }
 
-#quem-somos .col-md-5 {
+.login {
+    display: flex;
+    background-color: #D9B74B;
+    width: 70%;
+    height: 34rem;
+    overflow: hidden;
+}
+
+.login .col-md-6 {
+    flex: 1;
+    padding: 30px;
+}
+
+.close {
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    top: 0; 
+    left: 10px;
+    margin: 20px; 
+    z-index: 9999;
+}
+
+.form-login {
+    background-color: #D9B74B;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-login h1{
+    font-size: 26px;
+    font-weight: bold;
+    margin-top: -4rem;
+    margin-bottom: 2rem;
+    color: #000;
+}
+
+.campo-forms {
+    margin-bottom: 15px;
+}
+
+.campo-forms label {
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.campo-forms input{
+    background-color: #fff;
+    width: 100%;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+}
+
+.esqueceu{
+    text-align: right;
+    color: #0000007c;
+}
+
+.btn-entrar, .btn-cadastrar{
+    background-color: #525252;
+    width: 100%;
+    border-radius: 20px;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.btn-entrar:hover{
+    transition: 0.3s;
+    background-color: #8B45AA;
+}
+
+.img-login {
     height: 100vh;
-    background-image: url("../imgs/quemSomos.jpg");
+    background-image: url("../imgs/dogLogin.jpg"); 
+    background-size: cover; 
+    background-position: center; 
+}
+
+
+.registre-se {
+    text-align: center;
+}
+
+.registre-se a {
+    font-weight: 600;
+    text-decoration: none;
+    color: #000;
+}
+
+.img-login {
+    flex: 1;
+    height: 100vh;
+    background-image: url("../imgs/dog-home.jpg");
     background-size: cover;
     background-position: center;
 }
 
-#quem-somos .col-md-7 {
-    padding: 2rem;
-}
-
-#quem-somos .col-md-11 {
-    margin-bottom: 3rem;
-}
-
-#quem-somos h1 {
-    color: #8B45AA;
-    font-weight: 900;
-    margin-bottom: 3rem;
-}
-
-.btn-whatsapp {
-    background-color: #EA723F;
-    color: #fff;
-    border: none;
-    border-radius: 30px;
-    width: 200px;
-    height: 45px;
+/*CADASTRO*/
+.cadastro-box {
+    background-color: #fff;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.btn-whatsapp:hover{
+.cadastro {
+    background-color: #D9B74B;
+    width: 80%;
+    max-width: 800px;
+    height: 32rem;
+    padding: 30px; 
+}
+
+.cadastro h1{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.cadastro .mb-3{
+    height: 80px;
+    margin-top:  -10px;
+}
+
+.cadastro input{
+    height: 30px;
+}
+
+.btn-cadastrar{
+    margin-top: 40px;
+    font-size: 16px;
+    padding: 5px;
+}
+
+.btn-cadastrar:hover{
     transition: 0.3s;
-    background-color: #db6c3d;
+    background-color: #8B45AA;
 }
 
-/*Nossos Serviços*/
 
-#servicos {
-    margin-top: 20rem;
-    height: 80vh;
-    padding: 4rem 0;
+/* FOOTER */
+/* FOOTER*/
+.footer {
+    background-color: #757575;
+    color: #fff;
+    height: 150px;
+    padding-top: 15px;
+}
+
+.footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text-footer {
+    text-align: right;
+}
+
+.logo-footer img {
+    width: 130px;
+    border-radius: 50%;
+}
+
+
+/*Nossos Serviços
+#servicos h1{
     text-align: center;
-}
-
-#servicos h2 {
     color: #8B45AA;
-    margin-top: 5rem;
-    margin-bottom: -7rem;
-    font-size: 36px;
-    font-weight: 700;
-    text-align: center;
+    font-weight: 900;
+    margin-top: 2rem;
 }
+
+.card-servico {
+    position: relative;
+    width: 350px;
+    height: 300px;
+    background-color: #D9B74B;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.card-servico .circle{
+    background-color: #db6c3d;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-servico .circle img{
+    width: 40px;
+    height: 40px;
+}
+
+.card-servico .title {
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
+}
+
+.card-servico .text {
+    text-align: center;
+    color: #fff;
+    margin: 20px 10px;
+}
+
+@media (max-width: 992px) {
+    .card-servico {
+        width: 80%; 
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+/*
 
 .card {
     height: 250px;
@@ -254,30 +439,5 @@ nav.menu {
     opacity: 0.8;
 }
 
-
-/* Footer */
-.footer {
-    background-color: #8B45AA;
-    color: #fff;
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-
-.footer .logo-footer img {
-    width: 150px;
-}
-
-.footer .text-footer p {
-    margin-bottom: 10px;
-}
-
-.footer .text-footer span a {
-    color: #e01414;
-    text-decoration: none;
-}
-
-.footer .text-footer span a:hover {
-    text-decoration: underline;
-}
 
 

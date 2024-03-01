@@ -1,6 +1,6 @@
 
 
-/*
+
 @media (min-width: 1920px) and (max-width: 2000px) {
    
 }
@@ -35,6 +35,13 @@
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
+    .text-home{
+        text-align: center;
+        margin-top: 3rem;
+    }
+    .info-home{
+        margin: 1rem auto;
+    }
     .form-login {
         padding: 5rem 2rem;
     }
@@ -45,6 +52,12 @@
 }
 
 @media (min-width: 481px) and (max-width: 575px) {
+    .text-home{
+        text-align: center;
+    }
+    .info-home{
+        margin: 1rem auto;
+    }
     .form-login {
         padding: 5rem 2rem;
     }
@@ -55,6 +68,16 @@
 }
 
 @media (min-width: 391px) and (max-width: 480px) {
+    .text-home{
+        text-align: center;
+        margin-top: 4rem;
+    }
+    .text-home h1{
+        font-size: 50px;
+    }
+    .info-home{
+        margin: 1rem auto;
+    }
     .form-login {
         padding: 5rem 2rem;
     }
@@ -65,6 +88,13 @@
 }
 
 @media (min-width: 360px) and (max-width: 390px) {
+    .text-home{
+        text-align: center;
+        margin-top: 3rem;
+    }
+    .info-home{
+        margin: 1rem auto;
+    }
     .form-login {
         padding: 5rem 2rem;
     }

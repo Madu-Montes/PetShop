@@ -397,11 +397,15 @@ input[type="checkbox"] {
 }
 
 /*NOSSOS SERVIÇOS*/
+#servicos{
+    background-color: blue;
+    margin-top: 2rem;
+}
+
 #servicos h1 {
     text-align: center;
     color: #8B45AA;
     font-weight: 900;
-    margin-top: 2rem;
 }
 
 .card-servico {
@@ -454,7 +458,8 @@ input[type="checkbox"] {
 
 /* PRODUTOS */
 #produtos {
-    margin-top: 5rem;
+    background-color: cyan;
+    margin-top: 2rem;
 }
 
 #produtos h1 {
@@ -502,26 +507,51 @@ input[type="checkbox"] {
     transition: 0.3s;
 }
 
+/*CONTATO*/
+#contato{
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    padding: 25px;
+    background-color: cadetblue;
+}
+
+#contato h1{
+    font-size: 3rem;
+    font-weight: 900;
+    color: #8B45AA;
+}
+
+.contato-text{
+    padding-left: 30px;
+}
 
 /* FOOTER*/
-.footer {
-    background-color: #757575;
+.py-4 {
+    background-color: #292929;
     color: #fff;
-    height: 150px;
-    padding-top: 15px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
 }
 
-.footer .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+footer .logo-footer img {
+    width: 200px; 
 }
 
-.text-footer {
-    text-align: right;
+footer .social-icons {
+    list-style-type: none; 
+    padding: 0; 
 }
 
-.logo-footer img {
-    width: 130px;
-    border-radius: 50%;
+footer .social-icons li {
+    display: inline-block; 
+    margin-right: 10px;
 }
+
+footer .social-icons li:last-child {
+    margin-right: 0; 
+}
+
+
+

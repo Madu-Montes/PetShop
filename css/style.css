@@ -24,6 +24,11 @@ nav.menu {
     background-color: transparent !important;
 }
 
+.nav-login .btn-login{
+    position: relative;
+    top: auto;
+}
+
 .navbar-collapse li {
     width: 130px;
 }
@@ -48,7 +53,7 @@ nav.menu {
     color: #000;
 }
 
-.logo img {
+.navbar-brand img {
     width: 180px;
 }
 
@@ -80,39 +85,38 @@ nav.menu {
 
 /* RESPONSIVIDADE MENU */
 @media(max-width: 992px) {
-    nav ul {
+    .nav-home nav ul {
         flex-direction: column;
-        background-color: #8B45AA;
         text-align: center;
         padding: 10px;
     }
 
-    .nav-link {
+    .nav-home .nav-link {
         color: #fff;
     }
 
-    .navbar-nav {
+    .nav-home .navbar-nav {
         width: 100%;
         margin-left: auto;
     }
 
-    .navbar-nav li {
+    .nav-home .navbar-nav li {
         margin-bottom: 10px;
     }
 
-    .navbar-toggler {
+    .nav-home .navbar-toggler {
         display: block;
     }
 
-    .collapse.navbar-collapse.show {
+    .nav-home .collapse.navbar-collapse.show {
         display: block;
     }
 
-    .navbar-collapse {
+    .nav-home .navbar-collapse {
         display: none;
     }
 
-    .btn-login {
+    .nav-home .btn-login {
         position: relative;
         margin: 0 auto;
         right: auto;
@@ -458,7 +462,6 @@ input[type="checkbox"] {
 
 /* PRODUTOS */
 #produtos {
-    background-color: cyan;
     margin-top: 2rem;
 }
 

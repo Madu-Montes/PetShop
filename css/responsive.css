@@ -68,6 +68,10 @@
 }
 
 @media (min-width: 391px) and (max-width: 480px) {
+    .navbar-brand img {
+        margin-top: 10px;
+        width: 150px;
+    }
     .text-home{
         text-align: center;
         margin-top: 4rem;
@@ -88,6 +92,13 @@
 }
 
 @media (min-width: 360px) and (max-width: 390px) {
+    .navbar-brand img {
+        margin-top: 10px;
+        width: 140px;
+    }
+    .nav-login .btn-login{
+        width: 130px;
+    }
     .text-home{
         text-align: center;
         margin-top: 3rem;

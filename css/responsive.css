@@ -93,6 +93,7 @@
     }
     .login{
         width: 90%;
+        background-color: aqua;
     }
     .img-login{
         display: none;
@@ -123,6 +124,7 @@
     }
     .login{
         width: 90%;
+        background-color: brown;
     }
     .form-login {
         padding: 0rem;

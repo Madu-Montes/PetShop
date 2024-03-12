@@ -91,6 +91,9 @@
     .info-home{
         margin: 1rem auto;
     }
+    .login{
+        width: 90%;
+    }
     .img-login{
         display: none;
     }
@@ -117,6 +120,9 @@
     }
     .img-login{
         display: none;
+    }
+    .login{
+        width: 90%;
     }
     .form-login {
         padding: 0rem;

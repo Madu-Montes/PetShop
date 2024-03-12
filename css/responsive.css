@@ -1,32 +1,44 @@
-
-
-
 @media (min-width: 1920px) and (max-width: 2000px) {
+    .form-login {
+        margin-bottom: 18rem;
+    }
    
 }
 
 @media (min-width: 1600px) and (max-width: 1919px) {
+    .form-login {
+        margin-bottom: 18rem;
+    }
    
 }
 
 @media (min-width: 1200px) and (max-width: 1599px) {
-
+    .login {
+        width: 80%;
+    }
+    .form-login {
+        margin-bottom: 1rem;
+    }
    
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
+    .login {
+        width: 90%;
+        height: 37rem;
+    }
     .form-login {
-        padding: 5rem 2rem;
+        margin-bottom: 18rem;
     }
     
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-    .form-login {
-        padding: 5rem 2rem;
-    }
     .img-login{
         display: none;
+    }
+    .form-login {
+        padding: 0rem;
     }
     .row {
         justify-content: center; 
@@ -39,14 +51,11 @@
         text-align: center;
         margin-top: 3rem;
     }
-    .info-home{
-        margin: 1rem auto;
-    }
-    .form-login {
-        padding: 5rem 2rem;
-    }
     .img-login{
         display: none;
+    }
+    .form-login {
+        padding: 0rem;
     }
 
 }
@@ -58,11 +67,11 @@
     .info-home{
         margin: 1rem auto;
     }
-    .form-login {
-        padding: 5rem 2rem;
-    }
     .img-login{
         display: none;
+    }
+    .form-login {
+        padding: 0rem;
     }
 
 }
@@ -82,11 +91,11 @@
     .info-home{
         margin: 1rem auto;
     }
-    .form-login {
-        padding: 5rem 2rem;
-    }
     .img-login{
         display: none;
+    }
+    .form-login {
+        padding: 0rem;
     }
 
 }
@@ -106,11 +115,11 @@
     .info-home{
         margin: 1rem auto;
     }
-    .form-login {
-        padding: 5rem 2rem;
-    }
     .img-login{
         display: none;
+    }
+    .form-login {
+        padding: 0rem;
     }
 
 }

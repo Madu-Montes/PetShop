@@ -176,7 +176,7 @@ nav.menu {
     display: flex;
     background-color: #D9B74B;
     width: 70%;
-    height: 34rem;
+    height: 35rem;
     overflow: hidden;
 }
 
@@ -196,7 +196,6 @@ nav.menu {
 }
 
 .form-login {
-    background-color: #D9B74B;
     padding: 2rem;
     display: flex;
     flex-direction: column;

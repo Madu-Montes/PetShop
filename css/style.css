@@ -347,6 +347,10 @@ input[type="checkbox"] {
     margin-bottom: 5rem;
 }
 
+.text-home a{
+    text-decoration: none;
+}
+
 /*QUEM SOMOS*/
 #quem-somos {
     background-color: #D9B74B;
@@ -363,7 +367,6 @@ input[type="checkbox"] {
 #quem-somos .col-md-5 img {
     max-width: 90%;
     height: auto;
-
 }
 
 .quem-somos-content {
@@ -401,7 +404,6 @@ input[type="checkbox"] {
 
 /*NOSSOS SERVIÇOS*/
 #servicos{
-    background-color: blue;
     margin-top: 2rem;
 }
 

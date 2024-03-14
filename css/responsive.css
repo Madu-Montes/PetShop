@@ -2,7 +2,6 @@
     .form-login {
         margin-bottom: 18rem;
     }
-   
 }
 
 @media (min-width: 1600px) and (max-width: 1919px) {
@@ -56,6 +55,21 @@
     }
     .form-login {
         padding: 0rem;
+    }
+    .cadastro {
+        background-color: #70590c;
+        height: 40rem;
+        padding: 10px;
+    }
+    .cadastro h1 {
+        margin-top: -70px;
+    }
+    .cadastro-line label{
+        background-color: aquamarine;
+        margin-top: 25px;
+    }
+    .info-home {
+        margin: 0 auto;
     }
 
 }
@@ -126,6 +140,22 @@
     }
     .form-login {
         padding: 0rem;
+    }
+    #quem-somos {
+        padding: 2rem;
+        height: 74rem;
+    }
+    .btn-whatsapp{
+        margin: 25px auto;
+    }
+    #servicos{
+        height: 68rem;
+    }
+    .card-servico {
+        width: 300px;
+        height: 290px;
+        margin: 20px auto;
+        padding: 10px;
     }
 
 }

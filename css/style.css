@@ -237,6 +237,7 @@ input[type="checkbox"] {
 }
 
 .btn-entrar,
+.btn-agendar,
 .btn-cadastrar {
     background-color: #525252;
     width: 100%;

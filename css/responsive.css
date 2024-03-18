@@ -8,17 +8,31 @@
     .form-login {
         margin-bottom: 18rem;
     }
-   
+
+    .agendamento h1{
+        margin-top: -100px;
+    }
+
 }
 
 @media (min-width: 1200px) and (max-width: 1599px) {
     .login {
         width: 80%;
     }
+
     .form-login {
         margin-bottom: 1rem;
     }
-   
+
+    .agendamento .login{
+        height: 35rem;
+    }
+
+
+    .agendamento h1{
+        margin-top: -400px;
+    }
+
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -26,48 +40,86 @@
         width: 90%;
         height: 37rem;
     }
+
     .form-login {
         margin-bottom: 18rem;
     }
-    
+
+    .agendamento .login{
+        height: 40rem;
+    }
+
+    .agendamento h1{
+        margin-top: -100px;
+    }
+
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-    .img-login{
+    .img-login {
         display: none;
     }
+
     .form-login {
         padding: 0rem;
     }
+
     .row {
-        justify-content: center; 
+        justify-content: center;
+    }
+
+    .agendamento .login{
+        height: 40rem;
+    }
+
+    .agendamento h1{
+        text-align: center;
+        margin-top: 15px;
     }
 
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
-    .text-home{
+    .text-home {
         text-align: center;
         margin-top: 3rem;
     }
-    .img-login{
+
+    .img-login {
         display: none;
     }
+
     .form-login {
         padding: 0rem;
     }
+
+    .agendamento .login{
+        height: 40rem;
+    }
+
+    .agendamento h1{
+        text-align: center;
+        margin-top: 15px;
+    }
+
     .cadastro {
-        background-color: #70590c;
+        width: 90%;
         height: 40rem;
         padding: 10px;
     }
+
     .cadastro h1 {
         margin-top: -70px;
     }
-    .cadastro-line label{
-        background-color: aquamarine;
+
+    .cadastro-line label {
         margin-top: 25px;
     }
+
+    .btn-cadastrar {
+        margin-bottom: -15px;
+    }
+
     .info-home {
         margin: 0 auto;
     }
@@ -75,17 +127,65 @@
 }
 
 @media (min-width: 481px) and (max-width: 575px) {
-    .text-home{
+    .text-home {
         text-align: center;
     }
-    .info-home{
+
+    .info-home {
         margin: 1rem auto;
     }
-    .img-login{
+
+    .img-login {
         display: none;
     }
+
     .form-login {
         padding: 0rem;
+    }
+
+    .agendamento .login{
+        height: 40rem;
+    }
+
+    .agendamento h1{
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .cadastro {
+        background-color: rgb(5, 158, 107);
+        width: 90%;
+        height: 50rem;
+        padding: 10px;
+    }
+
+    .cadastro h1 {
+        margin-top: -200px;
+        /* Ajustando o espaçamento do título */
+    }
+
+    .cadastro-line {
+        display: block;
+        /* Alterando para bloco para que cada linha fique em uma coluna */
+        margin-bottom: 20px;
+        /* Adicionando espaçamento entre as linhas */
+    }
+
+    .cadastro-line label {
+        margin-top: 10px;
+        /* Ajustando o espaçamento superior */
+        background-color: darkorchid;
+    }
+
+    .cadastro-line input,
+    .cadastro-line select {
+        width: 100%;
+        /* Ocupando toda a largura disponível */
+    }
+
+    .btn-cadastrar {
+        margin-top: 20px;
+        /* Adicionando espaçamento acima do botão */
     }
 
 }
@@ -95,24 +195,39 @@
         margin-top: 10px;
         width: 150px;
     }
-    .text-home{
+
+    .text-home {
         text-align: center;
         margin-top: 4rem;
     }
-    .text-home h1{
+
+    .text-home h1 {
         font-size: 50px;
     }
-    .info-home{
+
+    .info-home {
         margin: 1rem auto;
     }
-    .login{
+
+    .login {
         width: 90%;
     }
-    .img-login{
+
+    .img-login {
         display: none;
     }
+
     .form-login {
         padding: 0rem;
+    }
+
+    .agendamento .login {
+        height: 40rem;
+    }
+
+    .agendamento h1 {
+        text-align: center;
+        margin-top: 15px;
     }
 
 }
@@ -122,35 +237,54 @@
         margin-top: 10px;
         width: 140px;
     }
-    .nav-login .btn-login{
+
+    .nav-login .btn-login {
         width: 130px;
     }
-    .text-home{
+
+    .text-home {
         text-align: center;
         margin-top: 3rem;
     }
-    .info-home{
+
+    .info-home {
         margin: 1rem auto;
     }
-    .img-login{
+
+    .img-login {
         display: none;
     }
-    .login{
+
+    .login {
         width: 90%;
     }
+
     .form-login {
         padding: 0rem;
     }
+
+    .agendamento .login {
+        height: 40rem;
+    }
+
+    .agendamento h1 {
+        text-align: center;
+        margin-top: 15px;
+    }
+
     #quem-somos {
         padding: 2rem;
         height: 74rem;
     }
-    .btn-whatsapp{
+
+    .btn-whatsapp {
         margin: 25px auto;
     }
-    #servicos{
+
+    #servicos {
         height: 68rem;
     }
+
     .card-servico {
         width: 300px;
         height: 290px;

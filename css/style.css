@@ -517,7 +517,7 @@ input[type="checkbox"] {
     margin-top: 3rem;
     margin-bottom: 5rem;
     padding: 25px;
-    background-color: cadetblue;
+    border: 1px solid #D9B74B;
 }
 
 #contato h1{

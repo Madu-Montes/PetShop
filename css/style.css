@@ -321,28 +321,6 @@ input[type="checkbox"] {
     background-color: #8B45AA;
 }
 
-.carousel-controls-container {
-    display: flex;
-    justify-content: center; 
-    margin-top: 20px; 
-}
-
-.custom-carousel-btn {
-    background-color: #8B45AA; 
-    border: none;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px; 
-    color: #fff; 
-    opacity: 0.8; 
-    transition: opacity 0.3s; 
-    margin-top: 20%;
-}
-
-.custom-carousel-btn:hover {
-    opacity: 1; 
-}
-
 /*HOME*/
 #home {
     margin-bottom: 5rem;
@@ -498,6 +476,28 @@ input[type="checkbox"] {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.carousel-controls-container {
+    display: flex;
+    justify-content: center; 
+    margin-top: 20px; 
+}
+
+.custom-carousel-btn {
+    background-color: #aa4545; 
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px; 
+    color: #fff; 
+    opacity: 0.8; 
+    transition: opacity 0.3s; 
+    margin-top: 20%;
+}
+
+.custom-carousel-btn:hover {
+    opacity: 1; 
 }
 
 .btn-ver-produto {

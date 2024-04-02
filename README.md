@@ -6,6 +6,8 @@ Bem-vindo ao PetShop Aumigo, uma página web FICTÍCIA desenvolvida com fins aca
 
 Este projeto foi desenvolvido com muito carinho por [Madu Montes](https://github.com/Madu-Montes). Espero que você goste e possa tirar algum aprendizado daqui! Além disso qualquer sugestão é muito bem-vinda, vc pode me encontrar no [LinkedIn](https://www.linkedin.com/in/maria-eduarda-montes-28727322b/)
 
+Deploy: https://aumigopetshop.netlify.app/ 
+
 ## Funcionalidades
 
 - **Login:** Acesse sua conta para gerenciar as informações do seu pet e fazer agendamentos.

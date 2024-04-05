@@ -13,28 +13,15 @@ body {
     height: 100vh;
 }
 
-.row {
+.row{
     height: 80vh;
     display: flex;
     align-items: center;
+    margin-bottom: 5rem;
 }
 
-/* MENU */
 nav.menu {
     background-color: transparent !important;
-}
-
-.nav-login .btn-login{
-    position: relative;
-    top: auto;
-}
-
-.navbar-collapse li {
-    width: 130px;
-}
-
-.navbar-collapse li a:hover {
-    color: #552a68;
 }
 
 .navbar-nav {
@@ -45,15 +32,28 @@ nav.menu {
     text-align: center;
 }
 
-.navbar-nav .nav-item {
+nav {
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex; 
+    margin-top: 15px;
+}
+
+nav ul li {
     margin-right: 20px;
 }
 
-.navbar-nav .nav-link {
+nav ul li a:hover {
     color: #000;
 }
 
-.navbar-brand img {
+.logo img{
     width: 180px;
 }
 
@@ -63,7 +63,7 @@ nav.menu {
     cursor: pointer;
 }
 
-.btn-login {
+.btn-login{
     background-color: #EA723F;
     color: #fff;
     border: none;
@@ -73,55 +73,36 @@ nav.menu {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    top: 20px;
-    right: 15px;
 }
 
-.btn-login:hover {
+.btn-login:hover{
     transition: 0.3s;
     background-color: #db6c3d;
 }
 
-/* RESPONSIVIDADE MENU */
-@media(max-width: 992px) {
-    .nav-home nav ul {
-        flex-direction: column;
-        text-align: center;
-        padding: 10px;
-    }
-
-    .nav-home .nav-link {
-        color: #fff;
-    }
-
-    .nav-home .navbar-nav {
+@media(max-width: 768px) {
+    nav ul {
+        display: none;
+        position: absolute;
+        top: 60px;
+        left: 0;
         width: 100%;
-        margin-left: auto;
+        flex-direction: column;
+        background-color: #333;
+        text-align: center;
     }
 
-    .nav-home .navbar-nav li {
+    nav ul.show {
+        display: flex;
+    }
+
+    nav ul li {
+        margin: 0;
         margin-bottom: 10px;
     }
 
-    .nav-home .navbar-toggler {
-        display: block;
-    }
-
-    .nav-home .collapse.navbar-collapse.show {
-        display: block;
-    }
-
-    .nav-home .navbar-collapse {
-        display: none;
-    }
-
-    .nav-home .btn-login {
-        position: relative;
-        margin: 0 auto;
-        right: auto;
-        top: auto;
-        transform: none;
+    #icon {
+        display: flex;
     }
 }
 
@@ -386,6 +367,10 @@ input[type="checkbox"] {
     margin-top: 2rem;
 }
 
+#servicos a{
+    text-decoration: none;
+}
+
 #servicos h1 {
     text-align: center;
     color: #8B45AA;
@@ -394,7 +379,7 @@ input[type="checkbox"] {
 
 .card-servico {
     position: relative;
-    width: 350px;
+    width: 340px;
     height: 300px;
     background-color: #D9B74B;
     margin-bottom: 20px;
@@ -476,28 +461,6 @@ input[type="checkbox"] {
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-
-.carousel-controls-container {
-    display: flex;
-    justify-content: center; 
-    margin-top: 20px; 
-}
-
-.custom-carousel-btn {
-    background-color: #aa4545; 
-    border: none;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px; 
-    color: #fff; 
-    opacity: 0.8; 
-    transition: opacity 0.3s; 
-    margin-top: 20%;
-}
-
-.custom-carousel-btn:hover {
-    opacity: 1; 
 }
 
 .btn-ver-produto {

@@ -208,7 +208,9 @@ nav ul li a:hover {
 }
 
 #quem-somos h2,
-#servicos h2 {
+#servicos h2,
+#produtos h2,
+#contato h2 {
     color: #8B45AA;
     text-transform: uppercase;
     font-weight: 700;
@@ -267,12 +269,42 @@ nav ul li a:hover {
 }
 
 /*produtos*/
+#produtos{
+    padding: 2rem;
+}
+
 .carousel-item {
     display: flex;
     justify-content: space-between;
 }
 
-#produtos .card {
-    width: 200px;
+#produtos .d-flex{
+    gap: 50px;
 }
+
+#produtos .card {
+    max-width: 21rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#produtos .card button{
+    width: 150px;
+    height: 45px;
+    background-color: #EA723F;
+    color: #fff;
+    border-radius: 30px;
+    border: none;
+}
+
+#produtos .carousel-control-prev-icon, #produtos .carousel-control-next-icon{
+    background-color: #8B45AA;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+/*contato*/
 

@@ -307,4 +307,58 @@ nav ul li a:hover {
 }
 
 /*contato*/
+#contato{
+    padding: 2rem;
+    margin: 3rem auto;
+}
 
+#contato .img-contato{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contato .img-contato img{
+width: 80%;
+}
+
+#contato .contato-infos{
+    width: 28rem;
+    padding: 1rem;
+}
+
+.contatos{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footer{
+    background-color: #181515;
+    color: #fff;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer img{
+    width: 150px;
+}
+
+.footer a{
+    color: #8B45AA;
+    transition: 0.4s;
+}
+
+.footer a:hover{
+    color: #9e1cd6;
+}
+    
+.redes{
+    display: flex;
+    gap: 10px;
+}
+.redes img{
+    width: 30px;
+}

@@ -424,11 +424,12 @@ nav ul li a:hover {
 /*login*/
 
 .login-box {
-    padding: 2rem 5rem;
+    padding: 1rem 7rem;
 }
 
 .login-box a img{
     width: 25px;
+    margin-bottom: 5px;
 }
 
 #login {
@@ -487,16 +488,49 @@ nav ul li a:hover {
     height: 40px;
     border-radius: 20px;
     margin: 10px auto;
+    background-color: #525252;
+    color: #fff;
+}
+
+strong{
+    text-align: center;
+    color: #000;
 }
 
 .img-login{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 1rem 3rem;
+    padding: 1rem 2rem;
 }
 
 .img-login img {
-    max-width: 100%; /* Ajusta a largura da imagem para se adequar ao tamanho */
-    height: auto; /* Mantém a proporção da imagem */
+    max-width: 100%; 
+    height: auto;
+}
+
+/*cadastro*/
+
+.cadastro-box{
+    height: 100dvh;
+    padding: 3rem 7rem;
+}
+
+.cadastro{
+    background-color: #D9B74B;
+    padding: 2rem;
+}
+
+.btn-cadastrar{
+    background-color: #525252;
+    border: none;
+    border-radius: 30px;
+    width: 200px;
+    height: 40px;
+    margin-top: 30px;
+}
+
+.btn-cadastrar:hover{
+    background-color: #8B45AA;
+    transition: 0.4s;
 }

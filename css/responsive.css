@@ -36,6 +36,21 @@
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
+    #quem-somos {
+        display: flex;
+        justify-content: center;
+        padding: 2rem;
+    }
+    
+    #quem-somos img {
+        width: 40rem;
+        margin-left: -25%;
+    }
+
+    #quem-somos .text-quem-somos {
+        width: 40rem;
+    }
+
     .login {
         width: 90%;
         height: 37rem;
@@ -56,6 +71,21 @@
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+    #quem-somos {
+        display: flex;
+        justify-content: center;
+        padding: 2rem;
+    }
+    
+    #quem-somos img {
+        width: 38rem;
+        margin-left: -55%;
+    }
+
+    #quem-somos .text-quem-somos {
+        width: 38rem;
+    }
+
     .img-login {
         display: none;
     }
@@ -79,6 +109,21 @@
     .text-home {
         text-align: center;
         margin-top: 3rem;
+    }
+
+    #quem-somos {
+        display: flex;
+        justify-content: center;
+        padding: 2rem;
+    }
+    
+    #quem-somos img {
+        width: 25rem;
+        margin-left: 5%;
+    }
+
+    #quem-somos .text-quem-somos {
+        width: 25rem;
     }
 
     .img-login {
@@ -129,6 +174,21 @@
 
     .info-home {
         margin: 1rem auto;
+    }
+
+    #quem-somos {
+        display: flex;
+        justify-content: center;
+        padding: 2rem;
+    }
+    
+    #quem-somos img {
+        width: 23rem;
+        margin-left: 6%;
+    }
+
+    #quem-somos .text-quem-somos {
+        width: 23rem;
     }
 
     .img-login {
@@ -187,11 +247,6 @@
 }
 
 @media (min-width: 391px) and (max-width: 480px) {
-    .navbar-brand img {
-        margin-top: 10px;
-        width: 150px;
-    }
-
     .text-home {
         text-align: center;
         margin-top: 4rem;
@@ -203,6 +258,21 @@
 
     .info-home {
         margin: 1rem auto;
+    }
+
+    #quem-somos {
+        display: flex;
+        justify-content: center;
+        padding: 2rem;
+    }
+    
+    #quem-somos img {
+        width: 23rem;
+        margin-left: -10%;
+    }
+
+    #quem-somos .text-quem-somos {
+        width: 23rem;
     }
 
     .login {
@@ -229,11 +299,6 @@
 }
 
 @media (min-width: 360px) and (max-width: 390px) {
-    .navbar-brand img {
-        margin-top: 10px;
-        width: 140px;
-    }
-
     .nav-login .btn-login {
         width: 130px;
     }
@@ -245,6 +310,21 @@
 
     .info-home {
         margin: 1rem auto;
+    }
+
+    #quem-somos {
+        display: flex;
+        justify-content: center;
+        padding: 2rem;
+    }
+    
+    #quem-somos img {
+        width: 23rem;
+        margin-left: -10%;
+    }
+
+    #quem-somos .text-quem-somos {
+        width: 23rem;
     }
 
     .img-login {

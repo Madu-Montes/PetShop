@@ -119,7 +119,7 @@ nav ul li a:hover {
 
     nav {
         position: absolute;
-        left: 280px;
+        left: 100%;
         top: 0;
         z-index: 999;
         width: 280px;
@@ -187,7 +187,6 @@ nav ul li a:hover {
     height: 80px;
     gap: 10px;
     position: relative;
-    /* Adicionando posição relativa para alinhar o span */
 }
 
 .info-home h2 {
@@ -291,7 +290,8 @@ nav ul li a:hover {
 
 
 #servicos .card:hover {
-    box-shadow: 14px 20px 29px -3px rgba(0, 0, 0, 0.1);
+    box-shadow: 14px 20px 29px -3px rgba(12, 12, 12, 0.534);
+    transition: 0.2s;
 }
 
 #servicos .circle {
